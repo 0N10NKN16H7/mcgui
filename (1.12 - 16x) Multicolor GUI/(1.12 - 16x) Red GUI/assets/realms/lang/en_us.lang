@@ -1,0 +1,287 @@
+﻿language.name=English
+language.region=US
+language.code=en_US
+
+mco.gui.ok=§cOk
+
+mco.terms.buttons.agree=§cAgree
+mco.terms.buttons.disagree=§cDon't agree
+mco.terms.title=§cRealms Terms of Service
+mco.terms.sentence.1=§cI agree to the Minecraft Realms
+mco.terms.sentence.2=§cTerms of Service
+
+mco.selectServer.play=§cPlay
+mco.selectServer.configure=§cConfigure realm
+mco.selectServer.leave=§cLeave realm
+mco.selectServer.create=§cCreate realm
+
+mco.selectServer.info=§cWhat is Realms?
+mco.selectServer.buy=§cBuy a realm!
+mco.selectServer.trial=§cGet a trial!
+mco.selectServer.close=§cClose
+mco.selectServer.expiredTrial=§cYour trial has ended
+mco.selectServer.expiredList=§cYour subscription has expired
+mco.selectServer.expiredSubscribe=§cSubscribe
+mco.selectServer.expiredRenew=§cRenew
+
+mco.selectServer.expired=§cExpired realm
+mco.selectServer.open=§cOpen realm
+mco.selectServer.closed=§cClosed realm
+mco.selectServer.locked=§cLocked realm
+
+mco.selectServer.openserver=§cOpen realm
+mco.selectServer.closeserver=§cClose realm
+
+mco.selectServer.minigame=§cMinigame:
+mco.selectServer.uninitialized=§cClick to start your new realm!
+
+mco.selectServer.expires.days=§cExpires in %s days
+mco.selectServer.expires.day=§cExpires in a day
+mco.selectServer.expires.soon=§cExpires soon
+
+mco.selectServer.note=§cNote:
+mco.selectServer.mapOnlySupportedForVersion=§cThis map is unsupported in %s
+mco.selectServer.minigameNotSupportedInVersion=§cCan't play this minigame in %s
+
+mco.selectServer.popup=§cRealms is a safe, simple way to enjoy an online Minecraft world with up to ten friends at a time.   It supports loads of minigames and plenty of custom worlds! Only the owner of the realm needs to pay.
+
+mco.configure.world.settings.title=§cSettings
+
+mco.configure.world.title=§cConfigure realm:
+mco.configure.worlds.title=§cWorlds
+mco.configure.world.name=§cRealm name
+mco.configure.world.description=§cRealm description
+mco.configure.world.location=§cLocation
+mco.configure.world.invited=§cInvited
+mco.configure.world.buttons.edit=§cSettings
+mco.configure.world.buttons.done=§cDone
+mco.configure.world.buttons.delete=§cDelete
+mco.configure.world.buttons.open=§cOpen realm
+mco.configure.world.buttons.close=§cClose realm
+mco.configure.world.buttons.invite=§cInvite player
+mco.configure.world.buttons.activity=§cPlayer activity
+mco.configure.world.buttons.moreoptions=§cMore options
+mco.configure.world.invite.profile.name=§cName
+mco.configure.world.uninvite.question=§cAre you sure that you want to uninvite
+mco.configure.world.status=§cStatus
+mco.configure.world.invites.ops.tooltip=§cOperator
+mco.configure.world.invites.normal.tooltip=§cNormal user
+mco.configure.world.invites.remove.tooltip=§cRemove
+
+mco.configure.world.closing=§cClosing the realm...
+mco.configure.world.opening=§cOpening the realm...
+
+mco.configure.world.buttons.open=§cOpen realm
+mco.configure.world.buttons.close=§cClose realm
+
+mco.configure.world.buttons.players=§cPlayers
+mco.configure.world.buttons.settings=§cSettings
+mco.configure.world.buttons.subscription=§cSubscription
+
+mco.configure.world.buttons.options=§cWorld options
+mco.configure.world.backup=§cWorld backups
+mco.configure.world.buttons.resetworld=§cReset world
+
+mco.configure.world.buttons.switchminigame=§cSwitch minigame
+mco.configure.current.minigame=§cCurrent
+
+mco.configure.world.subscription.title=§cYour subscription
+mco.configure.world.subscription.timeleft=§cTime left
+mco.configure.world.subscription.recurring.daysleft=§cRenewed automatically in
+mco.configure.world.subscription.less_than_a_day=§cLess than a day
+mco.configure.world.subscription.expired=§cExpired
+mco.configure.world.subscription.start=§cStart date
+mco.configure.world.subscription.extend=§cExtend subscription
+mco.configure.world.subscription.day=§cDay
+mco.configure.world.subscription.month=§cMonth
+mco.configure.world.subscription.days=§cDays
+mco.configure.world.subscription.months=§cMonths
+
+mco.configure.world.pvp=§cPVP
+mco.configure.world.spawnAnimals=§cSpawn animals
+mco.configure.world.spawnNPCs=§cSpawn NPCs
+mco.configure.world.spawnMonsters=§cSpawn monsters
+mco.configure.world.spawnProtection=§cSpawn protection
+mco.configure.world.commandBlocks=§cCommand blocks
+mco.configure.world.forceGameMode=§cForce game mode
+
+mco.configure.world.on=§cOn
+mco.configure.world.off=§cOff
+
+mco.configure.world.slot=§cWorld %s
+mco.configure.world.slot.empty=§cEmpty
+
+mco.create.world.wait=§cCreating the realm...
+mco.create.world.seed=§cSeed (Optional)
+mco.create.world.error=§cYou must enter a name!
+mco.create.world.subtitle=§cOptionally, select what world to put on your new realm
+mco.create.world.skip=§cSkip
+
+mco.reset.world.title=§cReset world
+mco.reset.world.warning=§cThis will replace the current world of your realm
+mco.reset.world.seed=§cSeed (Optional)
+mco.reset.world.resetting.screen.title=§cResetting world...
+mco.reset.world.generate=§cNew world
+mco.reset.world.upload=§cUpload world
+mco.reset.world.adventure=§cAdventures
+mco.reset.world.template=§cWorld templates
+mco.reset.world.experience=§cExperiences
+mco.reset.world.inspiration=§cInspiration
+
+mco.minigame.world.title=§cSwitch realm to minigame
+mco.minigame.world.info.line1=§cThis will temporarily replace your world with a minigame!
+mco.minigame.world.info.line2=§cYou can later return to your original world without losing anything.
+mco.minigame.world.selected=§cSelected minigame:
+mco.minigame.world.noSelection=§cPlease make a selection
+mco.minigame.world.startButton=§cSwitch
+mco.minigame.world.starting.screen.title=§cStarting minigame...
+mco.minigame.world.changeButton=§cSelect another minigame
+mco.minigame.world.stopButton=§cEnd minigame
+
+mco.minigame.world.switch.title=§cSwitch minigame
+mco.minigame.world.switch.new=§cSelect another minigame?
+
+mco.minigame.world.restore.question.line1=§cThe minigame will end and your realm will be restored.
+mco.minigame.world.restore.question.line2=§cAre you sure you want to continue?
+mco.minigame.world.restore=§cEnding minigame...
+
+mco.configure.world.slot.tooltip=§cSwitch world
+mco.configure.world.slot.tooltip.minigame=§cSwitch to minigame
+mco.configure.world.slot.tooltip.active=§cDouble-click to join
+
+mco.configure.world.close.question.line1=§cYour realm will become unavailable.
+mco.configure.world.close.question.line2=§cAre you sure you want to continue?
+
+mco.configure.world.leave.question.line1=§cIf you leave this realm you won't see it unless you are invited again
+mco.configure.world.leave.question.line2=§cAre you sure you want to continue?
+
+mco.configure.world.resourcepack.question.line1=§cYou need a custom resource pack to play on this realm
+mco.configure.world.resourcepack.question.line2=§cDo you want to download it and play?
+
+mco.configure.world.reset.question.line1=§cYour world will be regenerated and your current world will be lost
+mco.configure.world.reset.question.line2=§cAre you sure you want to continue?
+
+mco.configure.world.restore.question.line1=§cYour world will be restored to date '%s' (%s)
+mco.configure.world.restore.question.line2=§cAre you sure you want to continue?
+
+mco.configure.world.restore.download.question.line1=§cThe world will be downloaded and added to your single player worlds.
+mco.configure.world.restore.download.question.line2=§cDo you want to continue?
+
+mco.configure.world.slot.switch.question.line1=§cYour realm will be switched to another world
+mco.configure.world.slot.switch.question.line2=§cAre you sure you want to continue?
+
+mco.configure.world.switch.slot=§cCreate world
+mco.configure.world.switch.slot.subtitle=§cThis world is empty, choose how to create your world
+
+mco.minigame.world.slot.screen.title=§cSwitching world...
+
+mco.configure.world.edit.subscreen.adventuremap=§cSome settings are disabled since your current world is an adventure
+mco.configure.world.edit.subscreen.experience=§cSome settings are disabled since your current world is an experience
+mco.configure.world.edit.subscreen.inspiration=§cSome settings are disabled since your current world is an inspiration
+mco.configure.world.edit.slot.name=§cWorld name
+
+mco.configure.world.players.title=§cPlayers
+mco.configure.world.players.error=§cCould not invite the provided name
+
+mco.configure.world.delete.button=§cDelete realm
+mco.configure.world.delete.question.line1=§cYour realm will be permanently deleted
+mco.configure.world.delete.question.line2=§cAre you sure you want to continue?
+
+mco.connect.connecting=§cConnecting to the realm...
+mco.connect.authorizing=§cLogging in...
+mco.connect.failed=§cFailed to connect to the realm
+
+mco.create.world=§cCreate
+mco.create.world.reset.title=§cCreating world...
+
+mco.trial.title=§cCreate a realm
+
+mco.client.outdated.title=§cClient Outdated!
+mco.client.outdated.msg.line1=§cYour client is outdated and not compatible with Realms.
+mco.client.outdated.msg.line2=§cPlease update to the most recent version of Minecraft.
+
+mco.client.incompatible.title=§cClient Incompatible!
+mco.client.incompatible.msg.line1=§cYour client is not compatible with Realms.
+mco.client.incompatible.msg.line2=§cPlease use the most recent version of Minecraft.
+mco.client.incompatible.msg.line3=§cRealms is not compatible with snapshot versions.
+
+mco.backup.button.restore=§cRestore
+mco.backup.generate.world=§cGenerate world
+mco.backup.restoring=§cRestoring your realm
+mco.backup.button.download=§cDownload latest
+mco.backup.changes.tooltip=§cChanges
+mco.backup.nobackups=§cThis realm doesn't have any backups currently.
+mco.backup.button.upload=§cUpload world
+mco.backup.button.reset=§cReset world
+
+mco.download.title=§cDownloading latest world
+mco.download.cancelled=§cDownload cancelled
+mco.download.failed=§cDownload failed
+mco.download.done=§cDownload done
+mco.download.downloading=§cDownloading
+mco.download.extracting=§cExtracting
+mco.download.preparing=§cPreparing download
+mco.download.confirmation.line1=§cThe world you are going to download is larger than %s
+mco.download.confirmation.line2=§cYou won't be able to upload this world to your realm again
+
+mco.template.title=§cWorld templates
+mco.template.title.minigame=§cMinigames
+mco.template.button.select=§cSelect
+mco.template.default.name=§cWorld template
+mco.template.name=§cTemplate
+mco.template.info.tooltip=§cPublisher website
+mco.template.trailer.tooltip=§cMap trailer
+
+mco.invites.button.accept=§cAccept
+mco.invites.button.reject=§cReject
+mco.invites.title=§cPending Invites
+mco.invites.pending=§cNew invites!
+mco.invites.nopending=§cNo pending invites!
+
+mco.upload.select.world.title=§cUpload world
+mco.upload.select.world.subtitle=§cPlease select a singleplayer world to upload
+mco.upload.select.world.none=§cNo singleplayer worlds found!
+mco.upload.button.name=§cUpload
+mco.upload.verifying=§cVerifying your world
+mco.upload.preparing=§cPreparing your world
+mco.upload.close.failure=§cCould not close your realm, please try again later
+mco.upload.size.failure.line1=§c'%s' is too big!
+mco.upload.size.failure.line2=§cIt is %s. The maximum allowed size is %s.
+mco.upload.uploading=§cUploading '%s'
+mco.upload.done=§cUpload done
+mco.upload.failed=§cUpload failed! (%s)
+mco.upload.cancelled=§cUpload cancelled
+mco.upload.hardcore=§cHardcore worlds can't be uploaded!
+
+mco.activity.title=§cPlayer activity
+mco.activity.noactivity=§cNo activity for the past %s days
+
+mco.errorMessage.6001=§cClient outdated
+mco.errorMessage.6002=§cTerms of service not accepted
+mco.errorMessage.6003=§cDownload limit reached
+mco.errorMessage.6004=§cUpload limit reached
+mco.errorMessage.6005=§cWorld is in admin lock state
+
+mco.errorMessage.connectionFailure=§cAn error occurred, please try again later.
+
+mco.trial.unavailable=§cSorry, trials are unavailable at this time!
+mco.trial.message.line1=§cWant to get your own realm?
+mco.trial.message.line2=§cClick here for more info!
+
+mco.brokenworld.play=§cPlay
+mco.brokenworld.download=§cDownload
+mco.brokenworld.downloaded=§cDownloaded
+mco.brokenworld.reset=§cReset
+
+mco.brokenworld.title=§cYour current world is no longer supported
+mco.brokenworld.message.line1=§cPlease reset or select another world.
+mco.brokenworld.message.line2=§cYou can also choose to download the world to singleplayer.
+mco.brokenworld.minigame.title=§cThis minigame is no longer supported
+
+mco.brokenworld.nonowner.title=§cWorld is out of date
+mco.brokenworld.nonowner.error=§cPlease wait for the realm owner to reset the world
+
+mco.error.invalid.session.title=§cInvalid session
+mco.error.invalid.session.message=§cPlease try restarting Minecraft
+
+mco.news=§cRealms news

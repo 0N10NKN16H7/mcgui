@@ -1,0 +1,593 @@
+﻿# General
+of.general.ambiguous=§aambiguous
+of.general.custom=§aCustom
+of.general.from=§aFrom
+of.general.id=§aId
+of.general.restart=§arestart
+of.general.smart=§aSmart
+
+# Keys
+of.key.zoom=§aZoom
+
+# Message
+of.message.aa.shaders1=§aAntialiasing is not compatible with Shaders.
+of.message.aa.shaders2=§aPlease disable Shaders to enable this option.
+
+of.message.af.shaders1=§aAnisotropic Filtering is not compatible with Shaders.
+of.message.af.shaders2=§aPlease disable Shaders to enable this option.
+
+of.message.fr.shaders1=§aFast Render is not compatible with Shaders.
+of.message.fr.shaders2=§aPlease disable Shaders to enable this option.
+
+of.message.an.shaders1=§a3D Anaglyph is not compatible with Shaders.
+of.message.an.shaders2=§aPlease disable Shaders to enable this option.
+
+of.message.shaders.aa1=§aShaders are not compatible with Antialiasing. 
+of.message.shaders.aa2=§aPlease set Quality -> Antialiasing to OFF and restart the game.
+
+of.message.shaders.af1=§aShaders are not compatible with Anisotropic Filtering.
+of.message.shaders.af2=§aPlease set Quality -> Anisotropic Filtering to OFF. 
+
+of.message.shaders.fr1=§aShaders are not compatible with Fast Render.
+of.message.shaders.fr2=§aPlease set Performance -> Fast Render to OFF.
+
+of.message.shaders.an1=§aShaders are not compatible with 3D Anaglyph.
+of.message.shaders.an2=§aPlease set Other -> 3D Anaglyph to OFF.
+
+of.message.newVersion=§aA new OptiFine version is available: %s
+of.message.java64Bit=§aYou can install 64-bit Java to increase performance.
+of.message.openglError=§aOpenGL Error: %s (%s)
+
+of.message.shaders.loading=§aLoading shaders: %s
+
+of.message.other.reset=§aReset all video settings to their default values?
+ 
+of.message.loadingVisibleChunks=§aLoading visible chunks
+ 
+# Video settings
+
+options.graphics.tooltip.1=§aVisual quality
+options.graphics.tooltip.2=§a  Fast  - lower quality, faster
+options.graphics.tooltip.3=§a  Fancy - higher quality, slower
+options.graphics.tooltip.4=§aChanges the appearance of clouds, leaves, water,
+options.graphics.tooltip.5=§ashadows and grass sides.
+
+of.options.renderDistance.tiny=§aTiny
+of.options.renderDistance.short=§aShort
+of.options.renderDistance.normal=§aNormal
+of.options.renderDistance.far=§aFar
+of.options.renderDistance.extreme=§aExtreme
+
+options.renderDistance.tooltip.1=§aVisible distance
+options.renderDistance.tooltip.2=§a  2 Tiny - 32m (fastest)
+options.renderDistance.tooltip.3=§a  4 Short - 64m (faster)
+options.renderDistance.tooltip.4=§a  8 Normal - 128m
+options.renderDistance.tooltip.5=§a  16 Far - 256m (slower)
+options.renderDistance.tooltip.6=§a  32 Extreme - 512m (slowest!)
+options.renderDistance.tooltip.7=§aThe Extreme view distance is very resource demanding!
+options.renderDistance.tooltip.8=§aValues over 16 Far are only effective in local worlds.
+
+options.ao.tooltip.1=§aSmooth lighting
+options.ao.tooltip.2=§a  OFF - no smooth lighting (faster)
+options.ao.tooltip.3=§a  Minimum - simple smooth lighting (slower)
+options.ao.tooltip.4=§a  Maximum - complex smooth lighting (slowest)
+
+options.framerateLimit.tooltip.1=§aMax framerate
+options.framerateLimit.tooltip.2=§a  VSync - limit to monitor framerate (60, 30, 20)
+options.framerateLimit.tooltip.3=§a  5-255 - variable
+options.framerateLimit.tooltip.4=§a  Unlimited - no limit (fastest)
+options.framerateLimit.tooltip.5=§aThe framerate limit decreases the FPS even if
+options.framerateLimit.tooltip.6=§athe limit value is not reached.
+of.options.framerateLimit.vsync=§aVSync
+
+of.options.AO_LEVEL=§aSmooth Lighting Level
+of.options.AO_LEVEL.tooltip.1=§aSmooth lighting level
+of.options.AO_LEVEL.tooltip.2=§a  OFF - no shadows
+of.options.AO_LEVEL.tooltip.3=§a  50%% - light shadows
+of.options.AO_LEVEL.tooltip.4=§a  100%% - dark shadows
+
+options.viewBobbing.tooltip.1=§aMore realistic movement.
+options.viewBobbing.tooltip.2=§aWhen using mipmaps set it to OFF for best results.
+
+options.guiScale.tooltip.1=§aGUI Scale
+options.guiScale.tooltip.2=§a  Auto - maximal size
+options.guiScale.tooltip.3=§a  Small, Normal, Large - 1x to 3x
+options.guiScale.tooltip.4=§a  4x to 10x - available on 4K displays
+options.guiScale.tooltip.5=§aOdd values (1x, 3x, 5x ...) are not compatible with Unicode.
+options.guiScale.tooltip.6=§aA smaller GUI may be faster.
+
+options.vbo.tooltip.1=§aVertex Buffer Objects
+options.vbo.tooltip.2=§aUses an alternative rendering model which is usually
+options.vbo.tooltip.3=§afaster (5-10%%) than the default rendering.
+
+options.gamma.tooltip.1=§aChanges the brightness of darker objects.
+options.gamma.tooltip.2=§a  Moody - standard brightness
+options.gamma.tooltip.3=§a  1-99%% - variable
+options.gamma.tooltip.4=§a  Bright - maximum brightness for darker objects
+options.gamma.tooltip.5=§aThis option does not change the brightness of 
+options.gamma.tooltip.6=§afully black objects.
+
+options.anaglyph.tooltip.1=§a3D Anaglyph
+options.anaglyph.tooltip.2=§aEnables a stereoscopic 3D effect using different colors
+options.anaglyph.tooltip.3=§afor each eye.
+options.anaglyph.tooltip.4=§aRequires red-cyan glasses for proper viewing.
+
+of.options.ALTERNATE_BLOCKS=§aAlternate Blocks
+of.options.ALTERNATE_BLOCKS.tooltip.1=§aAlternate Blocks
+of.options.ALTERNATE_BLOCKS.tooltip.2=§aUses alternative block models for some blocks.
+of.options.ALTERNATE_BLOCKS.tooltip.3=§aDepends on the selected resource pack.
+
+of.options.FOG_FANCY=§aFog
+of.options.FOG_FANCY.tooltip.1=§aFog type
+of.options.FOG_FANCY.tooltip.2=§a  Fast - faster fog
+of.options.FOG_FANCY.tooltip.3=§a  Fancy - slower fog, looks better
+of.options.FOG_FANCY.tooltip.4=§a  OFF - no fog, fastest
+of.options.FOG_FANCY.tooltip.5=§aThe fancy fog is available only if it is supported by the 
+of.options.FOG_FANCY.tooltip.6=§agraphic card.
+
+of.options.FOG_START=§aFog Start
+of.options.FOG_START.tooltip.1=§aFog start
+of.options.FOG_START.tooltip.2=§a  0.2 - the fog starts near the player
+of.options.FOG_START.tooltip.3=§a  0.8 - the fog starts far from the player
+of.options.FOG_START.tooltip.4=§aThis option usually does not affect the performance.
+
+of.options.CHUNK_LOADING=§aChunk Loading
+of.options.CHUNK_LOADING.tooltip.1=§aChunk Loading
+of.options.CHUNK_LOADING.tooltip.2=§a  Default - unstable FPS when loading chunks
+of.options.CHUNK_LOADING.tooltip.3=§a  Smooth - stable FPS
+of.options.CHUNK_LOADING.tooltip.4=§a  Multi-Core - stable FPS, 3x faster world loading
+of.options.CHUNK_LOADING.tooltip.5=§aSmooth and Multi-Core remove the stuttering and 
+of.options.CHUNK_LOADING.tooltip.6=§afreezes caused by chunk loading.
+of.options.CHUNK_LOADING.tooltip.7=§aMulti-Core can speed up 3x the world loading and
+of.options.CHUNK_LOADING.tooltip.8=§aincrease FPS by using a second CPU core.
+of.options.chunkLoading.smooth=§aSmooth
+of.options.chunkLoading.multiCore=§aMulti-Core
+
+of.options.shaders=§aShaders...
+of.options.shadersTitle=§aShaders
+
+of.options.shaders.packNone=§aOFF
+of.options.shaders.packDefault=§a(internal)
+
+of.options.shaders.ANTIALIASING=§aAntialiasing
+of.options.shaders.NORMAL_MAP=§aNormal Map
+of.options.shaders.SPECULAR_MAP=§aSpecular Map
+of.options.shaders.RENDER_RES_MUL=§aRender Quality
+of.options.shaders.SHADOW_RES_MUL=§aShadow Quality
+of.options.shaders.HAND_DEPTH_MUL=§aHand Depth
+of.options.shaders.CLOUD_SHADOW=§aCloud Shadow
+of.options.shaders.OLD_HAND_LIGHT=§aOld Hand Light
+of.options.shaders.OLD_LIGHTING=§aOld Lighting
+of.options.shaders.SHADER_PACK=§aShader Pack
+
+of.options.shaders.shadersFolder=§aShaders Folder
+of.options.shaders.shaderOptions=§aShader Options...
+
+of.options.shaderOptionsTitle=§aShader Options
+
+of.options.quality=§aQuality...
+of.options.qualityTitle=§aQuality Settings
+
+of.options.details=§aDetails...
+of.options.detailsTitle=§aDetail Settings
+
+of.options.performance=§aPerformance...
+of.options.performanceTitle=§aPerformance Settings
+
+of.options.animations=§aAnimations...
+of.options.animationsTitle=§aAnimation Settings
+
+of.options.other=§aOther...
+of.options.otherTitle=§aOther Settings
+
+of.options.other.reset=§aReset Video Settings...
+
+of.shaders.profile=§aProfile
+
+# Quality
+
+of.options.mipmap.bilinear=§aBilinear
+of.options.mipmap.linear=§aLinear
+of.options.mipmap.nearest=§aNearest
+of.options.mipmap.trilinear=§aTrilinear
+
+options.mipmapLevels.tooltip.1=§aVisual effect which makes distant objects look better
+options.mipmapLevels.tooltip.2=§aby smoothing the texture details
+options.mipmapLevels.tooltip.3=§a  OFF - no smoothing
+options.mipmapLevels.tooltip.4=§a  1 - minimum smoothing
+options.mipmapLevels.tooltip.5=§a  4 - maximum smoothing
+options.mipmapLevels.tooltip.6=§aThis option usually does not affect the performance.
+
+of.options.MIPMAP_TYPE=§aMipmap Type
+of.options.MIPMAP_TYPE.tooltip.1=§aVisual effect which makes distant objects look better
+of.options.MIPMAP_TYPE.tooltip.2=§aby smoothing the texture details
+of.options.MIPMAP_TYPE.tooltip.3=§a  Nearest - rough smoothing (fastest)
+of.options.MIPMAP_TYPE.tooltip.4=§a  Linear - normal smoothing
+of.options.MIPMAP_TYPE.tooltip.5=§a  Bilinear - fine smoothing
+of.options.MIPMAP_TYPE.tooltip.6=§a  Trilinear - finest smoothing (slowest)
+
+
+of.options.AA_LEVEL=§aAntialiasing
+of.options.AA_LEVEL.tooltip.1=§aAntialiasing
+of.options.AA_LEVEL.tooltip.2=§a OFF - (default) no antialiasing (faster)
+of.options.AA_LEVEL.tooltip.3=§a 2-16 - antialiased lines and edges (slower)
+of.options.AA_LEVEL.tooltip.4=§aThe Antialiasing smooths jagged lines and 
+of.options.AA_LEVEL.tooltip.5=§asharp color transitions.
+of.options.AA_LEVEL.tooltip.6=§aWhen enabled it may substantially decrease the FPS.
+of.options.AA_LEVEL.tooltip.7=§aNot all levels are supported by all graphics cards.
+of.options.AA_LEVEL.tooltip.8=§aEffective after a RESTART!
+
+of.options.AF_LEVEL=§aAnisotropic Filtering
+of.options.AF_LEVEL.tooltip.1=§aAnisotropic Filtering
+of.options.AF_LEVEL.tooltip.2=§a OFF - (default) standard texture detail (faster)
+of.options.AF_LEVEL.tooltip.3=§a 2-16 - finer details in mipmapped textures (slower)
+of.options.AF_LEVEL.tooltip.4=§aThe Anisotropic Filtering restores details in
+of.options.AF_LEVEL.tooltip.5=§amipmapped textures.
+of.options.AF_LEVEL.tooltip.6=§aWhen enabled it may substantially decrease the FPS.
+
+of.options.CLEAR_WATER=§aClear Water
+of.options.CLEAR_WATER.tooltip.1=§aClear Water
+of.options.CLEAR_WATER.tooltip.2=§a  ON - clear, transparent water
+of.options.CLEAR_WATER.tooltip.3=§a  OFF - default water
+
+of.options.RANDOM_MOBS=§aRandom Mobs
+of.options.RANDOM_MOBS.tooltip.1=§aRandom Mobs
+of.options.RANDOM_MOBS.tooltip.2=§a  OFF - no random mobs, faster
+of.options.RANDOM_MOBS.tooltip.3=§a  ON - random mobs, slower
+of.options.RANDOM_MOBS.tooltip.4=§aRandom mobs uses random textures for the game creatures.
+of.options.RANDOM_MOBS.tooltip.5=§aIt needs a resource pack which has multiple mob textures.
+
+of.options.BETTER_GRASS=§aBetter Grass
+of.options.BETTER_GRASS.tooltip.1=§aBetter Grass
+of.options.BETTER_GRASS.tooltip.2=§a  OFF - default side grass texture, fastest
+of.options.BETTER_GRASS.tooltip.3=§a  Fast - full side grass texture, slower
+of.options.BETTER_GRASS.tooltip.4=§a  Fancy - dynamic side grass texture, slowest
+
+of.options.BETTER_SNOW=§aBetter Snow
+of.options.BETTER_SNOW.tooltip.1=§aBetter Snow
+of.options.BETTER_SNOW.tooltip.2=§a  OFF - default snow, faster
+of.options.BETTER_SNOW.tooltip.3=§a  ON - better snow, slower
+of.options.BETTER_SNOW.tooltip.4=§aShows snow under transparent blocks (fence, tall grass)
+of.options.BETTER_SNOW.tooltip.5=§awhen bordering with snow blocks.
+
+of.options.CUSTOM_FONTS=§aCustom Fonts
+of.options.CUSTOM_FONTS.tooltip.1=§aCustom Fonts
+of.options.CUSTOM_FONTS.tooltip.2=§a  ON - uses custom fonts (default), slower
+of.options.CUSTOM_FONTS.tooltip.3=§a  OFF - uses default font, faster
+of.options.CUSTOM_FONTS.tooltip.4=§aThe custom fonts are supplied by the current
+of.options.CUSTOM_FONTS.tooltip.5=§aresource pack.
+
+of.options.CUSTOM_COLORS=§aCustom Colors
+of.options.CUSTOM_COLORS.tooltip.1=§aCustom Colors
+of.options.CUSTOM_COLORS.tooltip.2=§a  ON - uses custom colors (default), slower
+of.options.CUSTOM_COLORS.tooltip.3=§a  OFF - uses default colors, faster
+of.options.CUSTOM_COLORS.tooltip.4=§aThe custom colors are supplied by the current
+of.options.CUSTOM_COLORS.tooltip.5=§aresource pack.
+
+of.options.SWAMP_COLORS=§aSwamp Colors
+of.options.SWAMP_COLORS.tooltip.1=§aSwamp Colors
+of.options.SWAMP_COLORS.tooltip.2=§a  ON - use swamp colors (default), slower
+of.options.SWAMP_COLORS.tooltip.3=§a  OFF - do not use swamp colors, faster
+of.options.SWAMP_COLORS.tooltip.4=§aThe swamp colors affect grass, leaves, vines and water.
+
+of.options.SMOOTH_BIOMES=§aSmooth Biomes
+of.options.SMOOTH_BIOMES.tooltip.1=§aSmooth Biomes
+of.options.SMOOTH_BIOMES.tooltip.2=§a  ON - smoothing of biome borders (default), slower
+of.options.SMOOTH_BIOMES.tooltip.3=§a  OFF - no smoothing of biome borders, faster
+of.options.SMOOTH_BIOMES.tooltip.4=§aThe smoothing of biome borders is done by sampling and
+of.options.SMOOTH_BIOMES.tooltip.5=§aaveraging the color of all surrounding blocks.
+of.options.SMOOTH_BIOMES.tooltip.6=§aAffected are grass, leaves, vines and water.
+
+of.options.CONNECTED_TEXTURES=§aConnected Textures
+of.options.CONNECTED_TEXTURES.tooltip.1=§aConnected Textures
+of.options.CONNECTED_TEXTURES.tooltip.2=§a  OFF - no connected textures (default)
+of.options.CONNECTED_TEXTURES.tooltip.3=§a  Fast - fast connected textures
+of.options.CONNECTED_TEXTURES.tooltip.4=§a  Fancy - fancy connected textures
+of.options.CONNECTED_TEXTURES.tooltip.5=§aConnected textures joins the textures of glass,
+of.options.CONNECTED_TEXTURES.tooltip.6=§asandstone and bookshelves when placed next to
+of.options.CONNECTED_TEXTURES.tooltip.7=§aeach other. The connected textures are supplied
+of.options.CONNECTED_TEXTURES.tooltip.8=§aby the current resource pack.
+
+of.options.NATURAL_TEXTURES=§aNatural Textures
+of.options.NATURAL_TEXTURES.tooltip.1=§aNatural Textures
+of.options.NATURAL_TEXTURES.tooltip.2=§a  OFF - no natural textures (default)
+of.options.NATURAL_TEXTURES.tooltip.3=§a  ON - use natural textures
+of.options.NATURAL_TEXTURES.tooltip.4=§aNatural textures remove the gridlike pattern
+of.options.NATURAL_TEXTURES.tooltip.5=§acreated by repeating blocks of the same type.
+of.options.NATURAL_TEXTURES.tooltip.6=§aIt uses rotated and flipped variants of the base
+of.options.NATURAL_TEXTURES.tooltip.7=§ablock texture. The configuration for the natural
+of.options.NATURAL_TEXTURES.tooltip.8=§atextures is supplied by the current resource pack.
+
+of.options.CUSTOM_SKY=§aCustom Sky
+of.options.CUSTOM_SKY.tooltip.1=§aCustom Sky
+of.options.CUSTOM_SKY.tooltip.2=§a  ON - custom sky textures (default), slow
+of.options.CUSTOM_SKY.tooltip.3=§a  OFF - default sky, faster
+of.options.CUSTOM_SKY.tooltip.4=§aThe custom sky textures are supplied by the current
+of.options.CUSTOM_SKY.tooltip.5=§aresource pack.
+
+of.options.CUSTOM_ITEMS=§aCustom Items
+of.options.CUSTOM_ITEMS.tooltip.1=§aCustom Items
+of.options.CUSTOM_ITEMS.tooltip.2=§a  ON - custom item textures (default), slow
+of.options.CUSTOM_ITEMS.tooltip.3=§a  OFF - default item textures, faster
+of.options.CUSTOM_ITEMS.tooltip.4=§aThe custom item textures are supplied by the current
+of.options.CUSTOM_ITEMS.tooltip.5=§aresource pack.
+
+of.options.CUSTOM_ENTITY_MODELS=§aCustom Entity Models
+of.options.CUSTOM_ENTITY_MODELS.tooltip.1=§aCustom Entity Models
+of.options.CUSTOM_ENTITY_MODELS.tooltip.2=§a  ON - custom entity models (default), slow
+of.options.CUSTOM_ENTITY_MODELS.tooltip.3=§a  OFF - default entity models, faster
+of.options.CUSTOM_ENTITY_MODELS.tooltip.4=§aThe custom entity models are supplied by the current
+of.options.CUSTOM_ENTITY_MODELS.tooltip.5=§aresource pack.
+
+of.options.CUSTOM_GUIS=§aCustom GUIs
+of.options.CUSTOM_GUIS.tooltip.1=§aCustom GUIs
+of.options.CUSTOM_GUIS.tooltip.2=§a  ON - custom GUIs (default), slower
+of.options.CUSTOM_GUIS.tooltip.3=§a  OFF - default GUIs, faster
+of.options.CUSTOM_GUIS.tooltip.4=§aThe custom GUIs are supplied by the current resource 
+of.options.CUSTOM_GUIS.tooltip.5=§apack.
+
+# Details
+
+of.options.CLOUDS=§aClouds
+of.options.CLOUDS.tooltip.1=§aClouds
+of.options.CLOUDS.tooltip.2=§a  Default - as set by setting Graphics
+of.options.CLOUDS.tooltip.3=§a  Fast - lower quality, faster
+of.options.CLOUDS.tooltip.4=§a  Fancy - higher quality, slower
+of.options.CLOUDS.tooltip.5=§a  OFF - no clouds, fastest
+of.options.CLOUDS.tooltip.6=§aFast clouds are rendered 2D.
+of.options.CLOUDS.tooltip.7=§aFancy clouds are rendered 3D.
+
+of.options.CLOUD_HEIGHT=§aCloud Height
+of.options.CLOUD_HEIGHT.tooltip.1=§aCloud Height
+of.options.CLOUD_HEIGHT.tooltip.2=§a  OFF - default height
+of.options.CLOUD_HEIGHT.tooltip.3=§a  100%% - above world height limit
+
+of.options.TREES=§aTrees
+of.options.TREES.tooltip.1=§aTrees
+of.options.TREES.tooltip.2=§a  Default - as set by setting Graphics
+of.options.TREES.tooltip.3=§a  Fast - lower quality, faster
+of.options.TREES.tooltip.4=§a  Smart - higher quality, fast
+of.options.TREES.tooltip.5=§a  Fancy - highest quality, slower
+of.options.TREES.tooltip.6=§aFast trees have opaque leaves.
+of.options.TREES.tooltip.7=§aFancy and smart trees have transparent leaves.
+
+of.options.RAIN=§aRain & Snow
+of.options.RAIN.tooltip.1=§aRain & Snow
+of.options.RAIN.tooltip.2=§a  Default - as set by setting Graphics
+of.options.RAIN.tooltip.3=§a  Fast  - light rain/snow, faster
+of.options.RAIN.tooltip.4=§a  Fancy - heavy rain/snow, slower
+of.options.RAIN.tooltip.5=§a  OFF - no rain/snow, fastest
+of.options.RAIN.tooltip.6=§aWhen rain is OFF the splashes and rain sounds
+of.options.RAIN.tooltip.7=§aare still active.
+
+of.options.SKY=§aSky
+of.options.SKY.tooltip.1=§aSky
+of.options.SKY.tooltip.2=§a  ON - sky is visible, slower
+of.options.SKY.tooltip.3=§a  OFF  - sky is not visible, faster
+of.options.SKY.tooltip.4=§aWhen sky is OFF the moon and sun are still visible.
+
+of.options.STARS=§aStars
+of.options.STARS.tooltip.1=§aStars
+of.options.STARS.tooltip.2=§a  ON - stars are visible, slower
+of.options.STARS.tooltip.3=§a  OFF  - stars are not visible, faster
+
+of.options.SUN_MOON=§aSun & Moon
+of.options.SUN_MOON.tooltip.1=§aSun & Moon
+of.options.SUN_MOON.tooltip.2=§a  ON - sun and moon are visible (default)
+of.options.SUN_MOON.tooltip.3=§a  OFF  - sun and moon are not visible (faster)
+
+of.options.SHOW_CAPES=§aShow Capes
+of.options.SHOW_CAPES.tooltip.1=§aShow Capes
+of.options.SHOW_CAPES.tooltip.2=§a  ON - show player capes (default)
+of.options.SHOW_CAPES.tooltip.3=§a  OFF - do not show player capes
+
+of.options.TRANSLUCENT_BLOCKS=§aTranslucent Blocks
+of.options.TRANSLUCENT_BLOCKS.tooltip.1=§aTranslucent Blocks
+of.options.TRANSLUCENT_BLOCKS.tooltip.2=§a  Fancy - correct color blending (default)
+of.options.TRANSLUCENT_BLOCKS.tooltip.3=§a  Fast - fast color blending (faster)
+of.options.TRANSLUCENT_BLOCKS.tooltip.4=§aControls the color blending of translucent blocks
+of.options.TRANSLUCENT_BLOCKS.tooltip.5=§awith different color (stained glass, water, ice)
+of.options.TRANSLUCENT_BLOCKS.tooltip.6=§awhen placed behind each other with air between them.
+
+of.options.HELD_ITEM_TOOLTIPS=§aHeld Item Tooltips
+of.options.HELD_ITEM_TOOLTIPS.tooltip.1=§aHeld item tooltips
+of.options.HELD_ITEM_TOOLTIPS.tooltip.2=§a  ON - show tooltips for held items (default)
+of.options.HELD_ITEM_TOOLTIPS.tooltip.3=§a  OFF - do not show tooltips for held items
+
+of.options.ADVANCED_TOOLTIPS=§aAdvanced Tooltips
+of.options.ADVANCED_TOOLTIPS.tooltip.1=§aAdvanced tooltips
+of.options.ADVANCED_TOOLTIPS.tooltip.2=§a  ON - show advanced tooltips 
+of.options.ADVANCED_TOOLTIPS.tooltip.3=§a  OFF - do not show advanced tooltips (default)
+of.options.ADVANCED_TOOLTIPS.tooltip.4=§aAdvanced tooltips show extended information for
+of.options.ADVANCED_TOOLTIPS.tooltip.5=§aitems (id, durability) and for shader options
+of.options.ADVANCED_TOOLTIPS.tooltip.6=§a(id, source, default value).
+
+of.options.DROPPED_ITEMS=§aDropped Items
+of.options.DROPPED_ITEMS.tooltip.1=§aDropped Items
+of.options.DROPPED_ITEMS.tooltip.2=§a  Default - as set by setting Graphics
+of.options.DROPPED_ITEMS.tooltip.3=§a  Fast - 2D dropped items, faster
+of.options.DROPPED_ITEMS.tooltip.4=§a  Fancy - 3D dropped items, slower
+
+options.entityShadows.tooltip.1=§aEntity Shadows
+options.entityShadows.tooltip.2=§a  ON - show entity shadows
+options.entityShadows.tooltip.3=§a  OFF - do not show entity shadows
+
+of.options.VIGNETTE=§aVignette
+of.options.VIGNETTE.tooltip.1=§aVisual effect which slightly darkens the screen corners
+of.options.VIGNETTE.tooltip.2=§a  Default - as set by the setting Graphics (default)
+of.options.VIGNETTE.tooltip.3=§a  Fast - vignette disabled (faster)
+of.options.VIGNETTE.tooltip.4=§a  Fancy - vignette enabled (slower)
+of.options.VIGNETTE.tooltip.5=§aThe vignette may have a significant effect on the FPS,
+of.options.VIGNETTE.tooltip.6=§aespecially when playing fullscreen.
+of.options.VIGNETTE.tooltip.7=§aThe vignette effect is very subtle and can safely
+of.options.VIGNETTE.tooltip.8=§abe disabled.
+
+of.options.DYNAMIC_FOV=§aDynamic FOV
+of.options.DYNAMIC_FOV.tooltip.1=§aDynamic FOV
+of.options.DYNAMIC_FOV.tooltip.2=§a  ON - enable dynamic FOV (default)
+of.options.DYNAMIC_FOV.tooltip.3=§a  OFF - disable dynamic FOV
+of.options.DYNAMIC_FOV.tooltip.4=§aChanges the field of view (FOV) when flying, sprinting 
+of.options.DYNAMIC_FOV.tooltip.5=§aor pulling a bow.
+
+of.options.DYNAMIC_LIGHTS=§aDynamic Lights
+of.options.DYNAMIC_LIGHTS.tooltip.1=§aDynamic Lights
+of.options.DYNAMIC_LIGHTS.tooltip.2=§a  OFF - no dynamic lights (default)
+of.options.DYNAMIC_LIGHTS.tooltip.3=§a  Fast - fast dynamic lights (updated every 500ms)
+of.options.DYNAMIC_LIGHTS.tooltip.4=§a  Fancy - fancy dynamic lights (updated in real-time)
+of.options.DYNAMIC_LIGHTS.tooltip.5=§aEnables light emitting items (torch, glowstone, etc.)
+of.options.DYNAMIC_LIGHTS.tooltip.6=§ato illuminate everything around them when held in hand,
+of.options.DYNAMIC_LIGHTS.tooltip.7=§aequipped by other player or dropped on the ground.
+
+# Performance
+
+of.options.SMOOTH_FPS=§aSmooth FPS
+of.options.SMOOTH_FPS.tooltip.1=§aStabilizes FPS by flushing the graphic driver buffers.
+of.options.SMOOTH_FPS.tooltip.2=§a  OFF - no stabilization, FPS may fluctuate
+of.options.SMOOTH_FPS.tooltip.3=§a  ON - FPS stabilization
+of.options.SMOOTH_FPS.tooltip.4=§aThis option is graphics driver dependant and its effect
+of.options.SMOOTH_FPS.tooltip.5=§ais not always visible.
+
+of.options.SMOOTH_WORLD=§aSmooth World
+of.options.SMOOTH_WORLD.tooltip.1=§aRemoves lag spikes caused by the internal server.
+of.options.SMOOTH_WORLD.tooltip.2=§a  OFF - no stabilization, FPS may fluctuate
+of.options.SMOOTH_WORLD.tooltip.3=§a  ON - FPS stabilization
+of.options.SMOOTH_WORLD.tooltip.4=§aStabilizes FPS by distributing the internal server load.
+of.options.SMOOTH_WORLD.tooltip.5=§aEffective only for local worlds (single player).
+
+of.options.FAST_RENDER=§aFast Render
+of.options.FAST_RENDER.tooltip.1=§aFast Render
+of.options.FAST_RENDER.tooltip.2=§a OFF - standard rendering (default)
+of.options.FAST_RENDER.tooltip.3=§a ON - optimized rendering (faster)
+of.options.FAST_RENDER.tooltip.4=§aUses optimized rendering algorithm which decreases
+of.options.FAST_RENDER.tooltip.5=§athe GPU load and may substantially increase the FPS.
+
+of.options.FAST_MATH=§aFast Math
+of.options.FAST_MATH.tooltip.1=§aFast Math
+of.options.FAST_MATH.tooltip.2=§a OFF - standard math (default)
+of.options.FAST_MATH.tooltip.3=§a ON - faster math
+of.options.FAST_MATH.tooltip.4=§aUses optimized sin() and cos() functions which can
+of.options.FAST_MATH.tooltip.5=§abetter utilize the CPU cache and increase the FPS.
+
+of.options.CHUNK_UPDATES=§aChunk Updates
+of.options.CHUNK_UPDATES.tooltip.1=§aChunk updates
+of.options.CHUNK_UPDATES.tooltip.2=§a 1 - slower world loading, higher FPS (default)
+of.options.CHUNK_UPDATES.tooltip.3=§a 3 - faster world loading, lower FPS
+of.options.CHUNK_UPDATES.tooltip.4=§a 5 - fastest world loading, lowest FPS
+of.options.CHUNK_UPDATES.tooltip.5=§aNumber of chunk updates per rendered frame,
+of.options.CHUNK_UPDATES.tooltip.6=§ahigher values may destabilize the framerate.
+
+of.options.CHUNK_UPDATES_DYNAMIC=§aDynamic Updates
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.1=§aDynamic chunk updates
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.2=§a OFF - (default) standard chunk updates per frame
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.3=§a ON - more updates while the player is standing still
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.4=§aDynamic updates force more chunk updates while
+of.options.CHUNK_UPDATES_DYNAMIC.tooltip.5=§athe player is standing still to load the world faster.
+
+of.options.LAZY_CHUNK_LOADING=§aLazy Chunk Loading
+of.options.LAZY_CHUNK_LOADING.tooltip.1=§aLazy Chunk Loading
+of.options.LAZY_CHUNK_LOADING.tooltip.2=§a OFF - default server chunk loading
+of.options.LAZY_CHUNK_LOADING.tooltip.3=§a ON - lazy server chunk loading (smoother)
+of.options.LAZY_CHUNK_LOADING.tooltip.4=§aSmooths the integrated server chunk loading by
+of.options.LAZY_CHUNK_LOADING.tooltip.5=§adistributing the chunks over several ticks.
+of.options.LAZY_CHUNK_LOADING.tooltip.6=§aTurn it OFF if parts of the world do not load correctly.
+of.options.LAZY_CHUNK_LOADING.tooltip.7=§aEffective only for local worlds and single-core CPU.
+
+# Animations
+
+of.options.animation.allOn=§aAll ON
+of.options.animation.allOff=§aAll OFF
+of.options.animation.dynamic=§aDynamic
+
+of.options.ANIMATED_WATER=§aWater Animated
+of.options.ANIMATED_LAVA=§aLava Animated
+of.options.ANIMATED_FIRE=§aFire Animated
+of.options.ANIMATED_PORTAL=§aPortal Animated
+of.options.ANIMATED_REDSTONE=§aRedstone Animated
+of.options.ANIMATED_EXPLOSION=§aExplosion Animated
+of.options.ANIMATED_FLAME=§aFlame Animated
+of.options.ANIMATED_SMOKE=§aSmoke Animated
+of.options.VOID_PARTICLES=§aVoid Particles
+of.options.WATER_PARTICLES=§aWater Particles
+of.options.RAIN_SPLASH=§aRain Splash
+of.options.PORTAL_PARTICLES=§aPortal Particles
+of.options.POTION_PARTICLES=§aPotion Particles
+of.options.DRIPPING_WATER_LAVA=§aDripping Water/Lava
+of.options.ANIMATED_TERRAIN=§aTerrain Animated
+of.options.ANIMATED_TEXTURES=§aTextures Animated
+of.options.FIREWORK_PARTICLES=§aFirework Particles
+
+# Other
+
+of.options.LAGOMETER=§aLagometer
+of.options.LAGOMETER.tooltip.1=§aShows the lagometer on the debug screen (F3).
+of.options.LAGOMETER.tooltip.2=§a* Orange - Memory garbage collection
+of.options.LAGOMETER.tooltip.3=§a* Cyan - Tick
+of.options.LAGOMETER.tooltip.4=§a* Blue - Scheduled executables
+of.options.LAGOMETER.tooltip.5=§a* Purple - Chunk upload
+of.options.LAGOMETER.tooltip.6=§a* Red - Chunk updates
+of.options.LAGOMETER.tooltip.7=§a* Yellow - Visibility check
+of.options.LAGOMETER.tooltip.8=§a* Green - Render terrain
+
+of.options.PROFILER=§aDebug Profiler
+of.options.PROFILER.tooltip.1=§aDebug Profiler
+of.options.PROFILER.tooltip.2=§a  ON - debug profiler is active, slower
+of.options.PROFILER.tooltip.3=§a  OFF - debug profiler is not active, faster
+of.options.PROFILER.tooltip.4=§aThe debug profiler collects and shows debug information
+of.options.PROFILER.tooltip.5=§awhen the debug screen is open (F3).
+
+of.options.WEATHER=§aWeather
+of.options.WEATHER.tooltip.1=§aWeather
+of.options.WEATHER.tooltip.2=§a  ON - weather is active, slower
+of.options.WEATHER.tooltip.3=§a  OFF - weather is not active, faster
+of.options.WEATHER.tooltip.4=§aThe weather controls rain, snow and thunderstorms.
+of.options.WEATHER.tooltip.5=§aWeather control is only possible for local worlds.
+
+of.options.time.dayOnly=§aDay Only
+of.options.time.nightOnly=§aNight Only
+
+of.options.TIME=§aTime
+of.options.TIME.tooltip.1=§aTime
+of.options.TIME.tooltip.2=§a Default - normal day/night cycles
+of.options.TIME.tooltip.3=§a Day Only - day only
+of.options.TIME.tooltip.4=§a Night Only - night only
+of.options.TIME.tooltip.5=§aThe time setting is only effective in CREATIVE mode
+of.options.TIME.tooltip.6=§aand for local worlds.
+
+options.fullscreen.tooltip.1=§aFullscreen
+options.fullscreen.tooltip.2=§a  ON - use fullscreen mode
+options.fullscreen.tooltip.3=§a  OFF - use window mode
+options.fullscreen.tooltip.4=§aFullscreen mode may be faster or slower than
+options.fullscreen.tooltip.5=§awindow mode, depending on the graphics card.
+
+of.options.FULLSCREEN_MODE=§aFullscreen Mode
+of.options.FULLSCREEN_MODE.tooltip.1=§aFullscreen mode
+of.options.FULLSCREEN_MODE.tooltip.2=§a  Default - use desktop screen resolution, slower
+of.options.FULLSCREEN_MODE.tooltip.3=§a  WxH - use custom screen resolution, may be faster
+of.options.FULLSCREEN_MODE.tooltip.4=§aThe selected resolution is used in fullscreen mode (F11).
+of.options.FULLSCREEN_MODE.tooltip.5=§aLower resolutions should generally be faster.
+
+of.options.SHOW_FPS=§aShow FPS
+of.options.SHOW_FPS.tooltip.1=§aShows compact FPS and render information.
+of.options.SHOW_FPS.tooltip.2=§a  C: - chunk renderers
+of.options.SHOW_FPS.tooltip.3=§a  E: - rendered entities + block entities
+of.options.SHOW_FPS.tooltip.4=§a  U: - chunk updates
+of.options.SHOW_FPS.tooltip.5=§aThe compact FPS information is only shown when the
+of.options.SHOW_FPS.tooltip.6=§adebug screen is not visible.
+
+of.options.save.default=§aDefault (2s)
+of.options.save.20s=§a20s
+of.options.save.3min=§a3min
+of.options.save.30min=§a30min
+
+of.options.AUTOSAVE_TICKS=§aAutosave
+of.options.AUTOSAVE_TICKS.tooltip.1=§aAutosave interval
+of.options.AUTOSAVE_TICKS.tooltip.2=§aDefault autosave interval (2s) is NOT RECOMMENDED.
+of.options.AUTOSAVE_TICKS.tooltip.3=§aAutosave causes the famous Lag Spike of Death.
+
+of.options.SCREENSHOT_SIZE=§aScreenshot Size
+of.options.SCREENSHOT_SIZE.tooltip.1=§aScreenshot Size
+of.options.SCREENSHOT_SIZE.tooltip.2=§a  Default - default screenshot size
+of.options.SCREENSHOT_SIZE.tooltip.3=§a  2x-4x - custom screenshot size
+of.options.SCREENSHOT_SIZE.tooltip.4=§aCapturing bigger screenshots may need more memory.
+of.options.SCREENSHOT_SIZE.tooltip.5=§aNot compatible with Fast Render and Antialiasing.
+of.options.SCREENSHOT_SIZE.tooltip.6=§aRequires GPU framebuffer support.
